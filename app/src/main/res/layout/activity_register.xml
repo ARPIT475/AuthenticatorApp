@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Register">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Authenticator App"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/yourfullname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="fullname"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/yourfathername"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="fathername"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/yourmothername"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="mothername"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/USN"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="collegeusn"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/youremailid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="emailid"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="password"
+                android:textSize="20dp" />
+
+
+
+            <EditText
+                android:id="@+id/yourdob"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="dob" />
+
+
+            <EditText
+                android:id="@+id/homeaddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="address" />
+
+
+            <EditText
+                android:id="@+id/Branch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="branch"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/Year"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="year"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/section"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:hint="classsection"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/submitform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#03A9F4"
+                android:text="REGISTER"
+                android:textAllCaps="false"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/loginform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#03A9F4"
+                android:text="already registered?Login Here"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
